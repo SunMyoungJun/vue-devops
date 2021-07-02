@@ -1,4 +1,5 @@
 module.exports = {
-    publicPath:"/vue-devops/",
-    outputDir:"dist"
-   };
+  publicPath: '',
+  outputDir: 'dist',
+  transpileDependencies: ['@vue/reactivity'],
+};
